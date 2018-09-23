@@ -1,0 +1,9 @@
+com\netia\iwork\Demo\Starter.class
+com\netia\iwork\Demo\services\interfaces\ProjectService.class
+com\netia\iwork\Demo\Application.class
+com\netia\iwork\Demo\entities\Project.class
+com\netia\iwork\Demo\repositories\ProjectRepository.class
+com\netia\iwork\Demo\LoggerDelegate.class
+com\netia\iwork\Demo\services\impl\ProjectServiceImpl.class
+com\netia\iwork\Demo\CamundaBpmProcessApplication.class
+com\netia\iwork\Demo\processelements\TestDelegate.class

@@ -1,0 +1,14 @@
+spring.datasource:
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    username: tm
+    password: 123
+    driver-class-name: oracle.jdbc.OracleDriver
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
+server.port: 8080
+schema-update: false

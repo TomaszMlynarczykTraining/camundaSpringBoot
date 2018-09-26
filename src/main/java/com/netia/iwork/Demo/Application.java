@@ -13,7 +13,7 @@ import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 @SpringBootApplication
 @EnableProcessApplication
 @EnableConfigurationProperties(ApplicationProperties.class)
-@Import({})
+@Import({ApplicationMainConfiguration.class})
 
 
 public class Application   {

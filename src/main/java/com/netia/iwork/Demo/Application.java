@@ -12,6 +12,9 @@ import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 
 @SpringBootApplication
 @EnableProcessApplication
+@EnableConfigurationProperties(ApplicationProperties.class)
+@Import({})
+
 
 public class Application   {
 	
@@ -19,7 +22,8 @@ public class Application   {
 	 // private static  ProjectService projectService;
 	
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+	final SpringApplication app = new SpringApplication(Application.class);
+        app.run(args);
         //createDefaultUser();
     }
     
